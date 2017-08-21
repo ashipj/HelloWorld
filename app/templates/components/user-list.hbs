@@ -1,6 +1,6 @@
 <h1>{{pageTitle}}</h1>
 <ul>
   {{#each userList as |user|}}
-    <li {{action "moreDetails" user}}>{{user}}</li>
+    <li {{action "moreDetails" user}}>{{user.firstName}} {{user.lastName}}</li>
   {{/each}}
 </ul>
