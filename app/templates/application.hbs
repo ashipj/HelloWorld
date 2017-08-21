@@ -1,3 +1,14 @@
-<b>Hello World Application</b>
+<div class="container">
+  <div class="menu">
+    {{#link-to 'index'}}
+      Home
+    {{/link-to}}
 
-{{outlet}}
+    {{#link-to 'user'}}
+      User Dashboard
+    {{/link-to}}
+  </div>
+  <div class="body">
+    {{outlet}}
+  </div>
+</div>
