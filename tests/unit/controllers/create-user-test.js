@@ -8,5 +8,6 @@ moduleFor('controller:create-user', 'Unit | Controller | create user', {
 // Replace this with your real tests.
 test('it exists', function(assert) {
   let controller = this.subject();
+  console.log("A sample code");
   assert.ok(controller);
 });
